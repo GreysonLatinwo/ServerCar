@@ -16,7 +16,6 @@ public class datasender extends AsyncTask<String,Void,Void> {
     String port;
     String message;
 
-
     @Override
     protected Void doInBackground(String... voids) {
         message = voids[0];
