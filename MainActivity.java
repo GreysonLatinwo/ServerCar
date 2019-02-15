@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private int JoystickAngle;
     private int Strength;
     Socket s;
-    String IP = "192.168.1.16";
-    String port = "4444";
+    String IP = "192.168.1.16"; //IP address of the Server
+    String port = "4444";       //Port of the server
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
